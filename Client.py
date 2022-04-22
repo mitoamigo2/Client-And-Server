@@ -1,7 +1,7 @@
 import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('localhost', 50000))
+client.connect(('localhost', 7777))
 
 while True:
     msg = client.recv(1024)
